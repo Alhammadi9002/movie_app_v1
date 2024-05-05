@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.singl a{
+  text-decoration: none;
+}
+.page_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie_text_hand {
+  color: gray;
+}
+.movie_date{
+  color: gray;
+}
+.movie_text{
+  color: gray;
+}
+.movie_title_last_part{
+  color: yellow;
+}
+.single_movie_page{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  gap: 30px;
+  margin-top: 60px;
+}
+.single_movie_page img{
+  width: 300px;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+  background-color: transparent;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.card img {
+  border-radius: 20px;
+}
+.card-title {
+  color: white;
+}
+.white-color {
+  color: white;
+}
+.blur-effect {
+  height: 80px;
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px;
+  backdrop-filter: blur(8px);
+  position: absolute;
+  bottom: 30%;
+  color: white;
+  padding: 5px;
+}
